@@ -27,7 +27,6 @@ html {
   background-color: black;
   display: flex;
   justify-content: space-around;
- 
 }
 
 .sec-1 nav div {
@@ -35,8 +34,20 @@ html {
 }
 .sec-1 nav h3 {
   padding: 5px;
-  color: #ecc001;
+  color: rgb(236, 192, 1);
 }
+
+.sec-1 nav button {
+  background-color: black;
+  width: 35px;
+}
+
+.sec-1 nav button:active {
+  background-color: rgb(236, 192, 1);
+  width: 35px;
+}
+
+
 
 @media (min-width: 576px) {
 }

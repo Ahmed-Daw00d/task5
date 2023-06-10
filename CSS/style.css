@@ -14,9 +14,10 @@ html {
 .container {
   margin-left: 15px;
   margin-right: 15px;
-  padding: 15px;
+  padding: 10px;
 }
 
+/*sec-1*/
 .sec-1 {
   padding-top: 15px;
   background-image: url("../images/2.jpg");
@@ -26,10 +27,12 @@ html {
 .sec-1 nav {
   background-color: black;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
-.sec-1 nav div {
+.sec-1 nav .flex {
   display: flex;
 }
 .sec-1 nav h3 {
@@ -47,7 +50,22 @@ html {
   width: 35px;
 }
 
+.shopping-h2{
+color: #cd8383;
+}
 
+.sec-1 .container div a{
+  color: #333;
+  text-decoration: none;
+  background-color: #fff;
+  border-radius: 20px; 
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    display: block;
+    width: 115px;
+}
+/*sec-1*/
 
 @media (min-width: 576px) {
 }

@@ -114,7 +114,7 @@ padding-left: 20px;
 }
 .card {
   background-color: black;
-  margin-bottom: 15px;
+
   width: 350px ;
   margin: 15px auto;
 
@@ -128,7 +128,7 @@ padding-left: 20px;
  .card-text{
   color: #fff;
   padding-left: 15px;
-  margin-right: 15px;
+  padding-right: 15px;
   text-align: justify;
  }
 /*finish sec-2*/

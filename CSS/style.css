@@ -9,6 +9,7 @@ html {
   font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana,
     "sans-serif";
   letter-spacing: 1px;
+ word-spacing: -1px;
 }
 
 
@@ -17,7 +18,9 @@ html {
 .sec-1 {
   padding-top: 15px;
   background-image: url("../images/2.jpg");
-  background-size: cover;
+  background-size: /*100% 100% */ cover;
+  background-repeat: no-repeat;
+ 
 }
 
 .sec-1 nav {
@@ -45,9 +48,9 @@ html {
   background-color: rgb(236, 192, 1);
   width: 35px;
 }
-.sec-1 .container .article {
-  margin-left: 15px;
-    margin-right: 15px;
+.sec-1  .aside {
+  margin-left: 11px;
+    margin-right: 12px;
     padding: 10px;
 
 }
@@ -56,7 +59,7 @@ html {
 color: #cd8383;
 }
 
-.sec-1 .container article a{
+ .sec-1 .aside a{
   color: #333;
   text-decoration: none;
   background-color: #fff;
@@ -66,6 +69,31 @@ color: #cd8383;
     margin-top: 15px;
     display: block;
     width: 115px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.sec-1 .article{
+  background-color: black;
+  padding-left: 21px;
+  padding-right: 21px;
+  margin-top:20px ; 
+  text-align: justify;
+}
+.article h4{
+  color: #ffc25b;
+  padding-bottom: 5px;
+}
+.article small{
+  color: #fff;
+
+}
+
+.visit{
+  color: #fff;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 /*sec-1*/
 

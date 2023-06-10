@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 html {
@@ -109,28 +110,30 @@ nav.list2 a {
 
 /*sec-2*/
 
-.h4sec2{
-padding-left: 20px;
+.h4sec2 {
+  padding-left: 20px;
 }
 .card {
   background-color: black;
-
-  width: 350px ;
+ 
+  width: 350px;
   margin: 15px auto;
-
+  
+}
+.imgsec2{
+  width: 100%;
 }
 
-
-.card-title{
+.card-title {
   padding-left: 15px;
-  color:rgb(236, 192, 1)
+  color: rgb(236, 192, 1);
 }
- .card-text{
+.card-text {
   color: #fff;
   padding-left: 15px;
   padding-right: 15px;
   text-align: justify;
- }
+}
 /*finish sec-2*/
 
 @media (max-width: 767.5px) {
@@ -142,29 +145,29 @@ padding-left: 20px;
 @media (min-width: 576px) {
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) {
   .list {
     display: none;
   }
 
-  .flexsec2{
+  .flexsec2 {
     display: flex;
     justify-content: space-between;
   }
-  
-@media (max-width: 992px)  {
-  .card3sec2{
-    overflow: auto;
-    width: 700px;
-    margin: 15px auto;
-  }
-.card{margin-right: 10px;}
-}
 
+  @media (max-width: 992px) {
+    .card3sec2 {
+      overflow: auto;
+      width: 700px;
+      margin: 15px auto;
+    }
+    .card {
+      margin-right: 10px;
+    }
+  }
 }
 
 @media (min-width: 992px) {
-  
 }
 
 @media (min-width: 1200px) {
@@ -175,7 +178,7 @@ padding-left: 20px;
     width: 1140px;
     margin: 0px auto;
   }
-  .flexsec2{
+  .flexsec2 {
     display: flex;
     justify-content: space-between;
   }

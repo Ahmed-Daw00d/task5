@@ -64,7 +64,7 @@ html {
   padding: 10px;
 }
 
-.sec-1 .aside a {
+ .button {
   color: #333;
   text-decoration: none;
   background-color: #fff;
@@ -119,6 +119,16 @@ nav.list2 a {
 
   width: 350px;
   margin: 15px auto;
+  position: relative;
+}
+.sall{
+  position:absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  top: 5px;
+  left: 5px;
+  border-radius: 10%;
+  color: #fff;
+  padding: 2px;
 }
 .imgsec2 {
   width: 100%;
@@ -155,6 +165,15 @@ nav.list2 a {
   width: 250px;
   margin-bottom: 15px;
 }
+/*article-2*/
+.article-2{
+background-image:url(../images/sep.png);
+background-size:cover;
+}
+.article-2 h6{
+  padding-left: 15%;
+  
+}
 /*finish sec-3*/
 
 @media (max-width: 767.5px) {
@@ -179,6 +198,10 @@ nav.list2 a {
   .imgsec3art1 img {
     margin-right: 10px;
   }
+  .flexsec3ar2{
+    padding-left: 30px;
+    margin: 15px auto;
+  }
 }
 
 @media (min-width: 576px) {
@@ -196,6 +219,11 @@ nav.list2 a {
   .flexsec3 {
     display: flex;
     justify-content: space-between;
+    
+  }
+  .flexsec3ar2 {
+    display: flex;
+    justify-content: space-around;
     
   }
 
@@ -221,6 +249,11 @@ nav.list2 a {
 }
 
 @media (min-width: 992px) {
+  @media (min-width: 1139px) {
+    .flexsec3{
+      flex-wrap: wrap;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -232,9 +265,7 @@ nav.list2 a {
     width: 1140px;
     margin: 0px auto;
   }
-  .flexsec3{
-    flex-wrap: wrap;
-  }
+  
 }
 
 @media (min-width: 1400px) {

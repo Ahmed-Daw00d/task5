@@ -194,7 +194,7 @@ div.flex-2 {
 
 .sec-4 {
   background: rgba(26, 137, 185, 0.5) url(images/contactus.jpg) no-repeat
-    center center fixed;
+    fixed;
   background-size: cover;
   padding: 15px;
   background-blend-mode: darken;

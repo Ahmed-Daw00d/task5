@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  
 }
 
 html {
@@ -16,13 +15,14 @@ html {
 /*sec-1*/
 .sec-1 {
   padding-top: 15px;
-  background-image: url("../images/2.jpg");
+  background-image: url("../images/banner.jpg");
   background-size: /*100% 100% */ cover;
   background-repeat: no-repeat;
 }
 .container {
   margin-left: 15px;
   margin-right: 15px;
+  margin-bottom: 15px;
   padding-top: 10px;
 }
 
@@ -84,7 +84,8 @@ html {
   padding-right: 15px;
   margin-top: 20px;
   text-align: justify;
-  padding-bottom: 15px;
+
+  padding-bottom: 35px;
   padding-top: 15px;
 }
 .article h4 {
@@ -115,12 +116,11 @@ nav.list2 a {
 }
 .card {
   background-color: black;
- 
+
   width: 350px;
   margin: 15px auto;
-  
 }
-.imgsec2{
+.imgsec2 {
   width: 100%;
 }
 
@@ -133,8 +133,25 @@ nav.list2 a {
   padding-left: 15px;
   padding-right: 15px;
   text-align: justify;
+  padding-bottom: 15px;
 }
 /*finish sec-2*/
+
+/* sec-3*/
+.sec-3 {
+  background-color: black;
+  color: #fff;
+}
+#h4sec3art1 {
+  text-align: center;
+  color: rgb(236, 192, 1);
+  margin-top: 15px;
+}
+
+.imgsec3art1 {
+  padding: 15px;
+}
+/*finish sec-3*/
 
 @media (max-width: 767.5px) {
   .list2 {
@@ -154,8 +171,9 @@ nav.list2 a {
     display: flex;
     justify-content: space-between;
   }
+  
 
-  @media (max-width: 992px) {
+  @media (max-width: 1139px) {
     .card3sec2 {
       overflow: auto;
       width: 700px;
@@ -177,10 +195,6 @@ nav.list2 a {
   .container {
     width: 1140px;
     margin: 0px auto;
-  }
-  .flexsec2 {
-    display: flex;
-    justify-content: space-between;
   }
 }
 

@@ -12,6 +12,9 @@ html {
   word-spacing: -1px;
 }
 
+
+
+
 /*sec-1*/
 .sec-1 {
   padding-top: 15px;
@@ -24,17 +27,49 @@ html {
   padding: 15px;
 }
 
+/*test*/
+nav div label{
+  padding-top: 10px;
+}
+dialog div:first-child{
+  background-color: black;
+  padding:15px 15px 
+}
+
+dialog a{
+
+  text-decoration: none;
+  color:#fff;
+}
+dialog i{
+  padding: 10px 5px;
+}
+#check{
+  display: none;
+}
+dialog{
+  display: none;
+  width: 140px;
+  border: 1px solid rgb(236, 192, 1);
+  position: fixed;
+  left: 60%;
+  top: 10%;
+}
+input:checked +dialog{
+  display: block;
+}
+
+
+/*test*/
 .sec-1 .navall {
   background-color: black;
-  padding-bottom: 5px;
-  padding-top: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0px 15px;
 }
 
 .nav {
   display: flex;
   justify-content: space-between;
+
 }
 
 .sec-1 nav div .flex {
@@ -286,9 +321,17 @@ ul{
 }
 
 @media (min-width: 768px) {
+  .list2 {
+    padding-top: 10px;
+  }
   .list {
     display: none;
   }
+/*test*/
+  nav div label{
+    display: none; 
+  }
+  /*test*/
 
   .flexsec2 {
     display: flex;

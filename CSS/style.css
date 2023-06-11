@@ -284,6 +284,16 @@ form button{
 
 li{
 list-style: none;
+padding: 8px;
+}
+li a{
+  text-decoration: none;
+  color: #fff;
+  
+}
+ a:hover{
+  background-color: rgb(236, 192, 1);
+  padding: 5px;
 }
 ul{
   padding-top: 15px;

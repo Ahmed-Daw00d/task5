@@ -215,8 +215,8 @@ background-size:cover;
   }
 
  
-  .flex-1 img{
-    margin-left: 30px;
+  .flex-1 img ,div.flex-2{
+    margin-left: 20px;
   }
 }
 
@@ -254,7 +254,7 @@ background-size:cover;
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
-    width: 500px;
+    width: 45%;
   }
 
   @media (max-width: 1139px) {
@@ -275,6 +275,7 @@ background-size:cover;
     .imgsec3art1 img {
       margin-right: 10px;
     }
+    
   }
 }
 

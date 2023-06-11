@@ -18,9 +18,10 @@ html {
 /*sec-1*/
 .sec-1 {
   padding-top: 15px;
-  background-image: url("../images/banner.jpg");
-  background-size: /*100% 100% */ cover;
-  background-repeat: no-repeat;
+  background:url("../images/banner.jpg") no-repeat center center/cover ;
+  align-items: center;
+ 
+
 }
 .container {
   

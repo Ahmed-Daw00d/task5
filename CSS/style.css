@@ -151,11 +151,33 @@ nav.list2 a {
 .imgsec3art1 {
   padding: 15px;
 }
+.imgsec3art1 img{
+  width: 250px;
+  margin-bottom: 15px;
+}
 /*finish sec-3*/
 
 @media (max-width: 767.5px) {
   .list2 {
     display: none;
+  }
+  .container {
+    margin: 0px auto;
+  }
+  
+  .flexsec3 {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .imgsec3art1{
+    overflow: auto;
+    width: 250px;
+    margin: 15px auto;
+  }
+
+  .imgsec3art1 img {
+    margin-right: 10px;
   }
 }
 
@@ -171,7 +193,11 @@ nav.list2 a {
     display: flex;
     justify-content: space-between;
   }
-  
+  .flexsec3 {
+    display: flex;
+    justify-content: space-between;
+    
+  }
 
   @media (max-width: 1139px) {
     .card3sec2 {
@@ -180,6 +206,15 @@ nav.list2 a {
       margin: 15px auto;
     }
     .card {
+      margin-right: 10px;
+    }
+    .imgsec3art1{
+      overflow: auto;
+      width: 700px;
+      margin: 15px auto;
+    }
+
+    .imgsec3art1 img {
       margin-right: 10px;
     }
   }
@@ -192,9 +227,13 @@ nav.list2 a {
   .aside {
     padding: 0px;
   }
+  
   .container {
     width: 1140px;
     margin: 0px auto;
+  }
+  .flexsec3{
+    flex-wrap: wrap;
   }
 }
 
